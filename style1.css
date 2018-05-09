@@ -1,0 +1,111 @@
+
+.chart-container {
+	overflow: hidden;
+	border-color: black;
+}
+.navbar-nav > li{
+  margin-left:40px;
+}
+
+.container7 {
+  height: 50px;
+}
+ 
+
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	.chart-container1 {
+		width: 500px;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 40px;
+	}
+	.container10 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+
+.panel-table .panel-body{
+  padding:0;
+}
+
+.panel-table .panel-body .table-bordered{
+  border-style: none;
+  margin:0;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+    width: 0 margin auto;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {
+  border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {
+  border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{
+  border-bottom: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+  border-top: 0px;
+}
+
+.panel-table .panel-footer .pagination{
+  margin:0; 
+}
+
+/*
+used to vertically center elements, may need modification if you're not using default sizes.
+*/
+.panel-table .panel-footer .col{
+ line-height: 34px;
+ height: 34px;
+}
+
+.panel-table .panel-heading .col h3{
+ line-height: 40px;
+ height: 40px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr > td{
+  line-height: 41px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.circle
+    {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    font-size:16px;
+    border: 2px solid lightgray;
+    color:black;
+    text-align:center;
+    vertical-align: middle;
+    background:white;
+    margin: 0 auto;
+    }
+
+    .footer1, .footer2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
