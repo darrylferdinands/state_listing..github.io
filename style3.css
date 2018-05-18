@@ -1,33 +1,3 @@
-select {
-
-  margin : 2px;
-  padding: 5px 5px 5px 5px;
-  font-size: 13px;
-  border: 1px solid #ccc;
-  height: 30px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-    background: url("drop.png") no-repeat right #ddd;     
- background-position-x: 70px; 
- width: 100px;
- }
-
-
-/* CAUTION: IE hackery ahead */
-
-
-select::-ms-expand { 
-    display: none; /* remove default arrow in IE 10 and 11 */
-}
-
-/* target Internet Explorer 9 to undo the custom arrow */
-@media screen and (min-width:0\0) {
-    select {
-        background:none\9;
-        padding: 5px\9;
-    }
-}
 
 .container2 {
     display: inline-block;
@@ -104,26 +74,6 @@ select::-ms-expand {
 }
 
 
-input[type=date] {
-    width: 74%;
-    border-radius: 25px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-input[type=submit] {
-    background-color: white;
-    border-radius: 25px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    width: 90px;
-    height: 45px; 
-    cursor: pointer;
-}
 
 
 .flex-container1 {
